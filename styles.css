@@ -1,6 +1,11 @@
 @font-face{
-  font-family: "TypoUpright BT";
+  font-family: "TypoUprightBT-Regular";
   src: url("TypoUprightBT.ttf");
+}
+
+@font-face{
+  font-family: "MarcellusSC-Regular";
+  src: url("MarcellusSC-Regular.ttf");
 }
 
 .glitch {
