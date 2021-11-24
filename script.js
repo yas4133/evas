@@ -1,13 +1,3 @@
-function getTracking(track){
-    r = axios.post("http://localhost:5000/search/order/",{
-        track: document.getElementById("track").textContent
-    })
-        .then((resp)=>{
-            return resp;
-        })
-    return r;
-}
-
 // function getImage(type){
 
 //     if(type=="Softdata Upload"){
