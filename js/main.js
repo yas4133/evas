@@ -9,7 +9,7 @@ function submitQuery(){
             document.getElementById("status").innerHTML = xml.responseText;
         }
     }
-    xml.open("GET","https://evas-tracking.herokuapp.com/"+document.getElementById("search").value,true)
+    xml.open("GET","https://evas-trackingg.herokuapp.com/"+document.getElementById("search").value,true)
     xml.send()
 }
 
